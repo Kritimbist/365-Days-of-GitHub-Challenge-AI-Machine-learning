@@ -117,7 +117,8 @@ Today i learn about the concept of data distribution and some of it's examples .
 I've use  python module Numpy, where we can create random data sets of any size.
 # some of the examples  of data distribution
 
-<img width="877" height="743" alt="image" src="https://github.com/user-attachments/assets/644279eb-3a51-4d5f-b8ea-aab4c182d625" />
+<img width="964" height="770" alt="image" src="https://github.com/user-attachments/assets/57749f77-cf2c-46f3-b43a-44510f7004f1" />
+
 
 
 
