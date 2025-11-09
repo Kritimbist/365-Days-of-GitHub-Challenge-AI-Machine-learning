@@ -1,7 +1,6 @@
-import numpy
 import matplotlib.pyplot as plt
+import numpy as np
 
-x = numpy.random.uniform(0.0, 5.0, 250)
-
-plt.hist(x, 5)
+x = np.random.uniform(0.0 , 0.7 ,150)
+plt.hist(x,5) # 5 is the number of bins
 plt.show()
