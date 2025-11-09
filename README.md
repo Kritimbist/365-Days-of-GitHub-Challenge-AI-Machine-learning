@@ -122,6 +122,66 @@ I've use  python module Numpy, where we can create random data sets of any size.
 
 
 
+## Day 002 : Visualizing Data Distribution using python
+
+Today i learn about how to visualize the distributed data . 
+
+
+## 📈 Visualization Types
+
+
+###  Histogram
+A **histogram** shows how data is distributed by grouping values into bins.
+We will use the Python module Matplotlib to draw a histogram.
+# sample example of histogram:
+<img width="846" height="702" alt="image" src="https://github.com/user-attachments/assets/ccce542b-ba96-441a-b9a3-e128832cc591" />
+
+
+
+##  Normal Distribution 
+
+A **normal distribution** is characterized by:
+- A **mean (μ)** — the center of the curve  
+- A **standard deviation (σ)** — controls how spread out the data is  
+
+The formula for the probability density function is:
+
+A Probability Density Function (PDF) is a mathematical function that tells you how likely a continuous outcome (like height, time, or temperature) is to fall within a certain range.
+
+$$
+f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+$$
+
+# Simple example of visualizing noram distribution:
+<img width="762" height="689" alt="image" src="https://github.com/user-attachments/assets/cfdae9be-9ef1-4375-934f-958fc60c7149" />
+
+
+
+##  scatter plot
+A scatter plot is a diagram where each value in the data set is represented by a dot.
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/168d08ea-cf6f-43cb-aa75-625004600152" />
+
+The Matplotlib module has a method for drawing scatter plots, it needs two arrays of the same length, one for the values of the x-axis, and one for the values of the y-axis:
+- x = [5,7,8,7,2,17,2,9,4,11,12,9,6]
+- y = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+Use the scatter() method to draw a scatter plot diagram.
+
+# Simple example of scatter plot :
+
+<img width="907" height="726" alt="image" src="https://github.com/user-attachments/assets/c2e18951-9daf-44a9-8334-456b80893b05" />
+
+## Random Data Distributions
+In Machine Learning the data sets can contain thousands-, or even millions, of values.
+You might not have real world data when you are testing an algorithm, you might have to use randomly generated values.
+
+Let us create two arrays that are both filled with 1000 random numbers from a normal data distribution.
+The first array will have the mean set to 5.0 with a standard deviation of 1.0.
+The second array will have the mean set to 10.0 with a standard deviation of 2.0:
+
+simple examples of random data distribution :
+<img width="904" height="705" alt="image" src="https://github.com/user-attachments/assets/eb810ce1-a45e-417d-a215-b7a58628f7ad" />
+
 
 
 
