@@ -182,6 +182,76 @@ The second array will have the mean set to 10.0 with a standard deviation of 2.0
 simple examples of random data distribution :
 <img width="904" height="705" alt="image" src="https://github.com/user-attachments/assets/eb810ce1-a45e-417d-a215-b7a58628f7ad" />
 
+# Regression
+
+In machine learning, regression is a type of supervised learning technique used to predict a continuous numerical value.
+Think of it as finding the mathematical relationship between a set of input features (like the size of a house, number of bedrooms, and location) and a continuous output (like its final sale price). The goal is to build a model that can take new, unseen input features and make an accurate prediction about the output.
+
+Supervised learning is a type of machine learning where the model learns from labeled data — meaning we already know the input and the correct output.
+You can think of it like a teacher guiding a student :
+- The teacher gives examples (inputs) and the correct answers (labels).
+- The student (model) learns the pattern between them.
+- Later, the student can predict answers for new examples.
+  
+Continuous numerical values are numbers that can take any value within a range — including fractions and decimals.
+
+Think of them as values that change smoothly instead of jumping from one value to another.
+
+🔹 Examples:
+
+Height → 165.4 cm, 170.2 cm, 171.8 cm
+
+Weight → 55.5 kg, 55.55 kg, 56.1 kg
+
+Temperature → 25.1°C, 25.15°C, 25.2°C
+
+Time → 2.5 seconds, 2.55 seconds, 2.556 seconds
+
+These can have infinite possible values between any two numbers.
+
+<img width="2048" height="1939" alt="image" src="https://github.com/user-attachments/assets/2ff7031f-6d7d-4c4d-9e07-2f289cafdf89" />
+
+## 📈 Common Types of Regression Algorithms
+While all regression models aim to predict a number, they use different methods to find the underlying patterns in the data.
+
+### Linear Regression
+This is the simplest and most common type. It assumes a linear relationship (a straight line) between the input variables (X) and the output variable (Y).
+
+
+# Simple Linear Regression
+This is used when you have one independent variable (X) to predict a continuous dependent variable (Y). The goal is to find the best-fitting straight line for the data.The formula for the regression line is:
+$$
+y = b_0 + b_1 * x + \epsilon
+$$
+
+Where:  
+- \( y \) = Dependent variable (what we want to predict)  
+- \( x \) = Independent variable (input feature)  
+- \( b_0 \) = Intercept (value of \( y \) when \( x = 0 \))  
+- \( b_1 \) = Slope (how much \( y \) changes with one unit increase in \( x \))  
+- \( \epsilon \) = Error term (difference between actual and predicted value)
+
+<img width="3000" height="2000" alt="image" src="https://github.com/user-attachments/assets/efc78c04-9f64-494d-beb9-7c4eaeb0bfd4" />
+
+
+# Simple example for simple linear regression :
+<img width="1215" height="704" alt="image" src="https://github.com/user-attachments/assets/6be23bcf-e22e-4bbd-8b2a-fc76eedb906b" /> <img width="1052" height="768" alt="image" src="https://github.com/user-attachments/assets/398aab09-a5c9-458c-8901-42342a50d426" />
+<img width="963" height="710" alt="image" src="https://github.com/user-attachments/assets/ac13fc52-9309-497b-b0d6-5084d1948321" />
+
+##  Code Breakdown: 
+- We create two numpy arrays. X is our input feature, and y is our target output.Important: scikit-learn models expect the X data to be a 2D array, even for simple regression with one feature. X.reshape(-1, 1) converts our 1D array [1, 2, 3...] into a 2D array [[1], [2], [3]...].
+- Create and Train the Model:model = LinearRegression(): We create an instance of the regression model.model.fit(X, y): This is the "training" step. The model "learns" the best possible straight line to fit the X and y data points by finding the optimal values for the slope ($b_1$) and intercept ($b_0$).
+- View the Results:model.intercept_: This gives you the calculated intercept ($b_0$) from the formula.model.coef_: This gives you an array of coefficients. Since this is simple linear regression, we only have one, coef_[0], which is our slope ($b_1$).
+- Make Predictions:model.predict(X): We use the trained model to predict the y-values for our original X-values. This gives us the points that lie directly on the red line.
+- Plot the Results:plt.scatter(X, y): This plots our original, "real" data points as blue dots.plt.plot(X, y_pred): This plots the predicted values as a red line, which is the final regression line.
+
+
+
+
+
+
+
+
 
 
 
