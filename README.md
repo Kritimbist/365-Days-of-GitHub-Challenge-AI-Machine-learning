@@ -265,6 +265,42 @@ $$y = b_0 + b_1x_1 + b_2x_2 + \dots + b_nx_n + \epsilon$$
 
 <img width="1229" height="764" alt="image" src="https://github.com/user-attachments/assets/2ac4ee8c-6072-4dd8-b154-d4dba298f575" /> <img width="930" height="428" alt="image" src="https://github.com/user-attachments/assets/eb8e45cd-65cd-4cfc-8abc-0c851cc5502c" /> <img width="874" height="545" alt="image" src="https://github.com/user-attachments/assets/38dcac78-d0e8-4af0-b308-b52fee2ec96a" />
 
+## Cost function for Linear Regression
+A cost function is a mathematical formula that measures the "cost" or error of a machine learning model.
 
+Imagine you have a scatter plot of data points, like house sizes and their prices. Your goal in linear regression is to draw one straight line that best fits all those points.
+But how do you know which line is the "best"?
+The cost function is a "score" that tells you how bad your line is. A high score means your line is a terrible fit. A low score means your line is a great fit.
+Your goal is to find the line that gives you the lowest possible score (the lowest "cost").
+<img width="3000" height="2000" alt="image" src="https://github.com/user-attachments/assets/729daa37-0d24-4d03-9dc9-be133302d4fd" />
+In this image, the red vertical lines represent the errors (residuals) for each point. The cost function calculates the average of the squares of the lengths of all these red lines.
+
+### The Formula (Mean Squared Error)
+
+The most common cost function for linear regression is the Mean Squared Error (MSE).
+$$J = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
+- Let's break that down:
+- $J$: This is just a common name for the cost function.
+- $n$: The total number of data points you have.
+- $\sum_{i=1}^{n}$: A fancy "sum" symbol. It just means "add up the following for every single point, from the 1st point to the $n$-th point.
+- $y_i$: The actual 'y' value (e.g., the true price) of the $i$-th data point.
+- $\hat{y}_i$: (pronounced "y-hat") The predicted 'y' value from your line for the $i$-th data point.
+- $(y_i - \hat{y}_i)$: This is the error (the vertical distance we saw in the diagram).
+- $(y_i - \hat{y}_i)^2$: This is the squared error.
+
+
+## Visualizing the Cost Function Itself
+
+This is a key concept. Your line is defined by its slope ($m$) and its y-intercept ($b$).
+- If you pick a bad $m$ and $b$, your squared errors will be huge, and your Cost ($J$) will be high.
+- If you pick the perfect $m$ and $b$, your squared errors will be tiny, and your Cost ($J$) will be at its absolute minimum.
+
+  If you were to plot every possible value of $m$ and $b$ against the Cost ($J$) they produce, you would get a 3D bowl shape.
+  <img width="3688" height="1876" alt="image" src="https://github.com/user-attachments/assets/2a778926-e6ca-4977-a8b1-ce1fc6ad2792" />
+  The bottom of the bowl is the lowest cost (minimum error).The $m$ and $b$ values at that very bottom point are the parameters for your best-fit line!The whole process of "training" a model is just an algorithm (like Gradient Descent) "walking" down the side of this bowl to find the bottom.
+  ## Simple Code Example (Python)
+  
+<img width="982" height="745" alt="image" src="https://github.com/user-attachments/assets/f646c084-0bf7-4e01-bcfa-a0503e3d1041" /> <img width="907" height="619" alt="image" src="https://github.com/user-attachments/assets/765a58dd-b95f-4b85-af24-009f406296ef" />
+<img width="1050" height="652" alt="image" src="https://github.com/user-attachments/assets/d0015137-9f22-41ed-b28e-fbb5b33a04c0" />
 
 
