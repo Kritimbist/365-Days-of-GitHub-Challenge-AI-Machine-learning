@@ -21,3 +21,15 @@ NumPy provides several built-in functions to generate arrays with specific prope
 ## Simple Program of above function:
 
   <img width="902" height="810" alt="image" src="https://github.com/user-attachments/assets/f8710adf-745d-482a-836e-859b31f22c64" />
+
+# Create Python Numpy Arrays Using Random Number Generation
+NumPy provides functions to create arrays filled with random numbers.
+
+- np.random.rand(): Creates an array of specified shape and fills it with random values sampled from a uniform distribution over [0, 1).
+- np.random.randn(): Creates an array of specified shape and fills it with random values sampled from a standard normal distribution.
+- np.random.randint(): Creates an array of specified shape and fills it with random integers within a given range.
+
+## Simple code examples :
+<img width="953" height="441" alt="image" src="https://github.com/user-attachments/assets/e28639a3-1a64-4ed0-9df6-308f5f20ea6f" />
+
+
