@@ -31,5 +31,16 @@ NumPy provides functions to create arrays filled with random numbers.
 
 ## Simple code examples :
 <img width="953" height="441" alt="image" src="https://github.com/user-attachments/assets/e28639a3-1a64-4ed0-9df6-308f5f20ea6f" />
+# Create Python Numpy Arrays Using Matrix Creation Routines
+NumPy provides functions to create specific types of matrices.
+
+np.eye(): Creates an identity matrix of specified size.
+- np.diag(): Constructs a diagonal array.
+- np.zeros_like(): Creates an array of zeros with the same shape and type as a given array.
+- np.ones_like(): Creates an array of ones with the same shape and type as a given array.
+
+## Simple code examples :
+<img width="637" height="505" alt="image" src="https://github.com/user-attachments/assets/dd374bf9-a45b-4948-be42-408deaf209dd" />
+
 
 
