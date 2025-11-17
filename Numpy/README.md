@@ -85,6 +85,12 @@ In this slicing can be applied to each dimension separately which allows us to e
 <img width="574" height="219" alt="image" src="https://github.com/user-attachments/assets/195eac8c-e78d-4051-b8c4-c7029d2fc78e" />
 
 
+## Boolean Indexing
+It allows us to filter elements from an array based on a condition and returns only those that meet it
+<img width="624" height="160" alt="image" src="https://github.com/user-attachments/assets/6a207b0b-da8e-472b-80b1-846d2f03f6bd" />
+
+We can also use logical operators like & (AND), | (OR) and ~ (NOT) to combine conditions.
+<img width="614" height="175" alt="image" src="https://github.com/user-attachments/assets/bfb77510-e283-4df9-a04d-344435028329" />
 
 
  
