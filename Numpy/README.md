@@ -104,6 +104,8 @@ The np.newaxis keyword adds a new axis to the array which helps in converting a 
 <img width="556" height="282" alt="image" src="https://github.com/user-attachments/assets/ea523007-8729-4c45-80f5-5e4cf95b3cf4" />
 ## Modifying Array Elements
 We can modify array elements directly by using indexing or slicing. This makes it easy to update specific elements or ranges of elements in an array.
+
+
 <img width="533" height="197" alt="image" src="https://github.com/user-attachments/assets/fad1d5b3-6d7c-422b-a72b-6708d232a4df" />
 
 
