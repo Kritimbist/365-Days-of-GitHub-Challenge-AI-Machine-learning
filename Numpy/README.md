@@ -163,6 +163,17 @@ The Binomial Distribution models the number of successes in a fixed number of in
 
 
 
+## Poisson Distribution
+The Poisson Distribution models how many times an event occurs within a fixed interval when the average occurrence rate (λ) is known. It is commonly used for scenarios like customer arrivals, call center traffic, website visits, or any event that happens independently over time or space.
+
+### Visualizing the Poisson Distribution
+<img width="946" height="305" alt="image" src="https://github.com/user-attachments/assets/50ee5e17-da2b-4b98-9035-b03ce4a81a72" />
+<img width="765" height="591" alt="image" src="https://github.com/user-attachments/assets/9aced76f-eb7f-4620-ab70-c8018cd3af89" />
+
+
+
+
+
 
 
 
