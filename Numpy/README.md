@@ -149,7 +149,18 @@ In this example, the scalar value 10 is broadcasted to match the shape of the 2D
  <img width="688" height="193" alt="image" src="https://github.com/user-attachments/assets/8822f08f-811f-4daa-a284-1904d76603a6" />
 
  ## Example 4: Using Broadcasting for Matrix Multiplication
- <img width="480" height="220" alt="image" src="https://github.com/user-attachments/assets/494ac026-5028-4c27-973f-25069de132df" />
+ <img width="480" height="220" alt="image" src="https://github.com/user-attachments/assets/494ac026-5028-4c27-973f-25069de132df" /> 
+
+
+ ## Binomial Distribution
+
+The Binomial Distribution models the number of successes in a fixed number of independent trials where each trial has only two outcomes: success or failure. In NumPy, we use the numpy.random.binomial() method to generate values that follow this distribution
+
+### Visualizing the Binomial Distribution
+
+<img width="1176" height="548" alt="image" src="https://github.com/user-attachments/assets/8f8ce7d0-aad9-45fb-973e-8c617f5fd2d0" />
+<img width="915" height="599" alt="image" src="https://github.com/user-attachments/assets/4b40d5a2-75e0-414b-8ab1-d96a7171ff9c" />
+
 
 
 
