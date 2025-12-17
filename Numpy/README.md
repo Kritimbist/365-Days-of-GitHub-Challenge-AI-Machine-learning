@@ -170,6 +170,21 @@ The Poisson Distribution models how many times an event occurs within a fixed in
 <img width="946" height="305" alt="image" src="https://github.com/user-attachments/assets/50ee5e17-da2b-4b98-9035-b03ce4a81a72" />
 <img width="765" height="591" alt="image" src="https://github.com/user-attachments/assets/9aced76f-eb7f-4620-ab70-c8018cd3af89" />
 
+## Chi-Square Distribution
+The Chi-Square Distribution appears when you add up the squares of independent standard normal random variables. It is widely used in hypothesis testing, goodness-of-fit tests, variance testing, and statistical modeling
+
+- df: Degrees of freedom (controls the shape of the curve)
+- size: Shape of output array
+
+### Visualizing the Chi-Square Distribution
+
+<img width="834" height="481" alt="image" src="https://github.com/user-attachments/assets/e8801a82-4298-4416-a9dd-6f5a3c428095" />
+<img width="706" height="567" alt="image" src="https://github.com/user-attachments/assets/cd3c3854-1082-41db-91c7-7c3e27f7921a" />
+
+
+
+
+
 
 
 
