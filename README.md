@@ -211,19 +211,10 @@ This is a key concept. Your line is defined by its slope ($m$) and its y-interce
   If you were to plot every possible value of $m$ and $b$ against the Cost ($J$) they produce, you would get a 3D bowl shape.
   <img width="3688" height="1876" alt="image" src="https://github.com/user-attachments/assets/2a778926-e6ca-4977-a8b1-ce1fc6ad2792" />
   The bottom of the bowl is the lowest cost (minimum error).The $m$ and $b$ values at that very bottom point are the parameters for your best-fit line!The whole process of "training" a model is just an algorithm (like Gradient Descent) "walking" down the side of this bowl to find the bottom.
+  <img width="819" height="481" alt="image" src="https://github.com/user-attachments/assets/93c1acea-558b-43e0-b95a-5aa669a86061" />
+
   ## Simple Code Example (Python)
   
 <img width="982" height="745" alt="image" src="https://github.com/user-attachments/assets/f646c084-0bf7-4e01-bcfa-a0503e3d1041" /> <img width="907" height="619" alt="image" src="https://github.com/user-attachments/assets/765a58dd-b95f-4b85-af24-009f406296ef" />
 <img width="1050" height="652" alt="image" src="https://github.com/user-attachments/assets/d0015137-9f22-41ed-b28e-fbb5b33a04c0" />
 
-# Pause on Current Project
-
-Hi there! 👋
-
-Starting **tomorrow**, I will focus on learning **NumPy, Pandas, scikit-learn (sklearn), and Matplotlib** from **basic to advanced levels**.  
-
-To do this properly, I am **pausing this project for now**. My plan is to gain a **strong understanding** of these core Python libraries first, so I can tackle more advanced topics effectively.  
-
-Once I complete the basics and feel confident, I will **resume this project** and continue making progress.  
-
-Thanks for your patience and stay tuned for updates! 🚀
