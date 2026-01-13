@@ -218,3 +218,50 @@ This is a key concept. Your line is defined by its slope ($m$) and its y-interce
 <img width="982" height="745" alt="image" src="https://github.com/user-attachments/assets/f646c084-0bf7-4e01-bcfa-a0503e3d1041" /> <img width="907" height="619" alt="image" src="https://github.com/user-attachments/assets/765a58dd-b95f-4b85-af24-009f406296ef" />
 <img width="1050" height="652" alt="image" src="https://github.com/user-attachments/assets/d0015137-9f22-41ed-b28e-fbb5b33a04c0" />
 
+## Gradient Descent 
+Gradient Descent is an iterative optimization algorithm used to minimize a cost (loss) function by adjusting model parameters in the direction of the negative gradient.
+
+In simple terms:
+
+Keep taking small steps downhill until you reach the lowest point.
+<img width="569" height="302" alt="image" src="https://github.com/user-attachments/assets/f376a342-0f5c-4bf6-8928-31023a6a635c" />
+
+### Mathematical Intuition
+
+<img width="305" height="97" alt="image" src="https://github.com/user-attachments/assets/1475e4f5-485f-477e-aa52-25173851ff43" />
+
+Where:
+
+- θ = model parameter
+
+- α (alpha) = learning rate
+
+- ∂J/∂θ = gradient of the cost function
+
+<img width="657" height="136" alt="image" src="https://github.com/user-attachments/assets/3fc4611b-4da0-45d2-93f8-3daabb4da985" />
+
+<img width="636" height="364" alt="image" src="https://github.com/user-attachments/assets/68869151-5b3e-4c85-8c49-5511e37f665a" />
+On a side note, we should adjust our parameter α αalpha to ensure that the gradient descent algorithm converges in a reasonable time. Failure to converge or too much time to obtain the minimum value imply that our step size is wrong.
+<img width="663" height="365" alt="image" src="https://github.com/user-attachments/assets/4d52bba4-ae89-497e-99af-01ab5064c746" />
+
+<img width="654" height="362" alt="image" src="https://github.com/user-attachments/assets/0e357748-4dff-43e4-ae39-3f4a7ca16b73" />
+
+## Gradient Descent For Linear Regression
+When specifically applied to the case of linear regression, a new form of the gradient descent equation can be derived. We can substitute our actual cost function and our actual hypothesis function and modify the equation to :
+
+<img width="770" height="220" alt="image" src="https://github.com/user-attachments/assets/3f48e173-8326-4d87-891b-03cee8f77e8d" />
+
+<img width="1083" height="392" alt="image" src="https://github.com/user-attachments/assets/aacc5f95-0803-4381-a10b-c28988f8f939" />
+The point of all this is that if we start with a guess for our hypothesis and then repeatedly apply these gradient descent equations, our hypothesis will become more and more accurate.
+
+So, this is simply gradient descent on the original cost function J. This method looks at every example in the entire training set on every step, and is called batch gradient descent. Note that, while gradient descent can be susceptible to local minima in general, the optimization problem we have posed here for linear regression has only one global, and no other local, optima; thus gradient descent always converges (assuming the learning rate α is not too large) to the global minimum. Indeed, J is a convex quadratic function. Here is an example of gradient descent as it is run to minimize a quadratic function.
+<img width="316" height="240" alt="image" src="https://github.com/user-attachments/assets/36837457-d80d-4531-8265-5309feb9f254" />
+
+The ellipses shown above are the contours of a quadratic function. Also shown is the trajectory taken by gradient descent, which was initialized at (48,30). The x’s in the figure (joined by straight lines) mark the successive values of θ that gradient descent went through as it converged to its minimum.
+
+
+
+
+
+
+
