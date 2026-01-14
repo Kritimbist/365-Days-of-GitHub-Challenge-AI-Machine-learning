@@ -260,7 +260,9 @@ So, this is simply gradient descent on the original cost function J. This method
 The ellipses shown above are the contours of a quadratic function. Also shown is the trajectory taken by gradient descent, which was initialized at (48,30). The x’s in the figure (joined by straight lines) mark the successive values of θ that gradient descent went through as it converged to its minimum.
 
 
-
+## Simple mini-project of linear regression
+"Today, I completed a mini-project predicting student marks using Ordinary Least Squares (OLS). I utilized a small dataset of study hours and marks to train the model and visualized the correlation with a scatter plot. The source code is organized in a dedicated folder, and the visualization can be seen below."
+<img width="826" height="611" alt="image" src="https://github.com/user-attachments/assets/9fc5c62d-00a3-43cb-b65d-6f652fd341c0" />
 
 
 
