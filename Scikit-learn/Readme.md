@@ -75,4 +75,25 @@ The model is trained by minimizing this loss function.
 
 ---
 
+##  Ordinary Least Squares
+Today i learnt about OLS , OLS is used to learn a linear relationship between input features and a target value.
+
+we know that the linear equation :
+$$y = \theta_0 + \theta_1 x_1 + \theta_2 x_2 + \dots + \theta_n x_n + \epsilon$$
+where,
+
+- y → actual output
+
+- x → input features
+
+- θ → parameters (weights) we want to learn
+
+- ε → noise
+
+
+OLS asks:
+“Which values of θ make my predictions as close as possible to the real data?”
+
+
+<img width="1400" height="870" alt="image" src="https://github.com/user-attachments/assets/64f3fbfc-bc58-47e7-9868-48a5ce46f736" />
 
