@@ -264,6 +264,7 @@ The ellipses shown above are the contours of a quadratic function. Also shown is
 "Today, I completed a mini-project predicting student marks using Ordinary Least Squares (OLS). I utilized a small dataset of study hours and marks to train the model and visualized the correlation with a scatter plot. The source code is organized in a dedicated folder, and the visualization can be seen below."
 
 - source: https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols_ridge.html
+- Source code : python for machine learning/sutdent_marks_prediction.py
 
 
 
