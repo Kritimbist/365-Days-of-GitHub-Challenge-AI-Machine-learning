@@ -275,7 +275,7 @@ Today I applied Ridge Regression to predict product sales using advertising budg
 
 In the graph, the Ridge regression line is smoother and less steep than the OLS line. This shows that Ridge regression controls model complexity and reduces overfitting, especially when data contains noise.
 - source : https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
-- code : 
+- code : https://github.com/Kritimbist/365-Days-of-GitHub-Challenge-AI-Machine-learning/blob/main/Scikit-learn/code/Ridge_Regres.py
   
 - Output :
 
