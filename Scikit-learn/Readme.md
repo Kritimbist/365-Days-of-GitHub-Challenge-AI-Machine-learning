@@ -97,3 +97,24 @@ OLS asks:
 
 <img width="1400" height="870" alt="image" src="https://github.com/user-attachments/assets/64f3fbfc-bc58-47e7-9868-48a5ce46f736" />
 
+## Ridge regression 
+Today I learned about Ridge Regression in machine learning. Ridge regression is an improved version of linear regression (OLS). In ordinary least squares, the model tries to reduce the error as much as possible, but sometimes this causes the model to give very large values to the coefficients, especially when the features are highly related to each other.
+
+Ridge regression solves this problem by adding a penalty term to the cost function. This penalty controls the size of the coefficients and prevents overfitting.
+The cost function of ridge regression is:
+
+$\text{Cost} = \sum (y - \hat{y})^2 + \lambda \sum \theta^2$
+
+- Squared Error:$(y - \hat{y})^2$ renders as $(y - \hat{y})^2$
+- L2 Regularization Term:$\sum \theta^2$ renders as $\sum \theta^2$
+- Regularization Parameter (Lambda):$\lambda$ renders as $\lambda$
+
+  The main idea of ridge regression is to reduce model complexity and improve prediction on new data. It is mainly used when the dataset has multicollinearity or when the linear regression model is overfitting.
+
+  I applied Ridge Regression to predict product sales using advertising budget. Ordinary least squares tries to fit the data closely and may give higher coefficient values. Ridge regression adds a regularization term that reduces the magnitude of coefficients.
+
+In the graph, the Ridge regression line is smoother and less steep than the OLS line. This shows that Ridge regression controls model complexity and reduces overfitting, especially when data contains noise.
+
+<img width="708" height="573" alt="image" src="https://github.com/user-attachments/assets/394663a2-3aff-4d83-928f-53479fe8845c" />
+
+
