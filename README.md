@@ -270,6 +270,18 @@ The ellipses shown above are the contours of a quadratic function. Also shown is
 
 <img width="826" height="611" alt="image" src="https://github.com/user-attachments/assets/9fc5c62d-00a3-43cb-b65d-6f652fd341c0" />
 
+## Ridge Regression
+Today I applied Ridge Regression to predict product sales using advertising budget. Ordinary least squares tries to fit the data closely and may give higher coefficient values. Ridge regression adds a regularization term that reduces the magnitude of coefficients.
+
+In the graph, the Ridge regression line is smoother and less steep than the OLS line. This shows that Ridge regression controls model complexity and reduces overfitting, especially when data contains noise.
+- source : https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
+- code : 
+  
+- Output :
+
+<img width="702" height="572" alt="image" src="https://github.com/user-attachments/assets/f2fc47e3-afee-4a2c-8031-c0d790f6a222" />
+
+
 
 
 
