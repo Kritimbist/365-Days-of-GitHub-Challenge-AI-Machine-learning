@@ -13,7 +13,6 @@ Welcome to my **365 Days of GitHub Challenge**, where I’ll combine my passion 
 
 - **Languages:** Python  
 - **Frameworks:** PyTorch, TensorFlow, Scikit-learn  
-- **Astronomy Tools:** AstroPy, AstroML, FITS I/O  
 - **Visualization:** Matplotlib, Plotly, Seaborn  
 - **Dev Tools:** Git, GitHub, Jupyter, VS Code  
 
