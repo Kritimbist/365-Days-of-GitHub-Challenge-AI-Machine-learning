@@ -297,7 +297,7 @@ Finally, I visualized both OLS and Lasso prediction lines using a plot. From the
 <img width="780" height="642" alt="image" src="https://github.com/user-attachments/assets/596d9228-5d51-4070-839e-d77afd0980cc" />
 
 - Source :https://scikit-learn.org/stable/modules/linear_model.html#lasso
-- Code:
+- Code:https://github.com/Kritimbist/365-Days-of-GitHub-Challenge-AI-Machine-learning/blob/main/Scikit-learn/code/Lasso_Regg.py
 
 
 
