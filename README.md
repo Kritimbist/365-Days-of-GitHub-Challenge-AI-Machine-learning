@@ -280,6 +280,26 @@ In the graph, the Ridge regression line is smoother and less steep than the OLS 
 
 <img width="702" height="572" alt="image" src="https://github.com/user-attachments/assets/f2fc47e3-afee-4a2c-8031-c0d790f6a222" />
 
+## Lasso Regression
+
+Today I learned about Lasso Regression in machine learning. Lasso is a type of linear regression that adds L1 regularization to the ordinary least squares loss. Unlike OLS and Ridge regression, Lasso can shrink coefficients to exactly zero, which helps in feature selection and reduces overfitting.
+
+  <img width="766" height="237" alt="image" src="https://github.com/user-attachments/assets/64b0669e-e5bc-4e75-8b18-16212a601f37" />
+
+
+To understand Lasso clearly, I took a simple example of engine size and fuel consumption. I first applied Ordinary Least Squares (OLS) to see how a normal linear regression fits the data without any regularization. OLS tries to fit the data closely and is sensitive to noise.
+
+After that, I applied Lasso regression with a higher regularization value. In the code, I used Lasso to penalize large coefficients. Because of the L1 penalty, the slope of the line was reduced and became zero, meaning the model ignored the feature completely.
+
+Finally, I visualized both OLS and Lasso prediction lines using a plot. From the graph, I could clearly see that OLS fits the noisy data more aggressively, while Lasso produces a simpler model by shrinking the coefficient and reducing the effect of the feature. This helped me understand how Lasso regression controls model complexity and performs feature selection.
+
+   
+<img width="780" height="642" alt="image" src="https://github.com/user-attachments/assets/596d9228-5d51-4070-839e-d77afd0980cc" />
+
+- Source :https://scikit-learn.org/stable/modules/linear_model.html#lasso
+- Code:
+
+
 
 
 
