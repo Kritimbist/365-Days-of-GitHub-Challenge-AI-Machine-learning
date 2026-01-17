@@ -117,4 +117,25 @@ In the graph, the Ridge regression line is smoother and less steep than the OLS 
 
 <img width="708" height="573" alt="image" src="https://github.com/user-attachments/assets/394663a2-3aff-4d83-928f-53479fe8845c" />
 
+## Lasso Regression
+
+Today I learned about Lasso Regression
+
+Lasso Regression is another type of linear regression, similar to Ridge Regression, but with a small twist. While Ridge shrinks the coefficients, Lasso can actually set some coefficients exactly to zero. This is why Lasso is useful for feature selection.
+
+1. Cost function
+
+ Lasso adds L1 regularization to the ordinary least squares loss:
+ 
+$\text{Cost} = \sum (y - \hat{y})^2 + \lambda \sum |\theta|$
+where,
+
+<img width="634" height="144" alt="image" src="https://github.com/user-attachments/assets/73a49521-2c7c-4051-a8f8-1819974a60cc" />
+
+
+I took a simple example of engine size and fuel consumption to understand how Lasso regression works compared to Ordinary Least Squares (OLS). I trained an OLS model to see how a normal linear regression fits the data without any regularization. Then I applied Lasso regression with a higher regularization value to observe its effect. After training both models, I visualized their prediction lines using a plot. From the graph, I could clearly see that OLS tries to fit the noisy data closely, while Lasso simplifies the model by shrinking the coefficient and reducing the impact of the feature. This example helped me understand how Lasso can prevent overfitting and perform feature selection.
+
+
+<img width="851" height="582" alt="image" src="https://github.com/user-attachments/assets/2cfb1557-cad9-45a5-89a4-a62451e67fce" />
+
 
