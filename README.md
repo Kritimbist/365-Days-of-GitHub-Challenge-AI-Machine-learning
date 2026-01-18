@@ -313,6 +313,6 @@ This example helped me understand how Multi-Task Lasso performs joint feature se
 <img width="1105" height="637" alt="image" src="https://github.com/user-attachments/assets/63b996c9-be55-49e4-9938-7800bcffcbd7" />
 
 - Source :https://scikit-learn.org/stable/modules/linear_model.html#lasso
-- Code :
+- Code :https://github.com/Kritimbist/365-Days-of-GitHub-Challenge-AI-Machine-learning/blob/main/Scikit-learn/code/Multi_task%20lasso.py
 
 
