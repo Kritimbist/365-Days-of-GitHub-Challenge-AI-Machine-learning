@@ -301,6 +301,18 @@ Finally, I visualized both OLS and Lasso prediction lines using a plot. From the
 
 
 
+## Multi-task Lasso
+I implemented Multi-Task Lasso regression using a simple example of engine size as the input feature. I created two related target variables: fuel consumption and CO₂ emission. Since both outputs depend on the same feature, this makes it a good example for multi-task learning.
 
+First, I generated a synthetic dataset with some noise to make it realistic. Then I combined both target variables into a single matrix so the model could learn them together. After that, I trained a MultiTaskLasso model with a regularization parameter (alpha = 0.5), which applies shared L1 regularization across both tasks.
+
+Next, I generated predictions for new engine size values and plotted the results. In the visualization, the scatter points represent the original data, and the straight lines represent the predictions made by the Multi-Task Lasso model for both tasks. From the plot, it is clear that the model learns both outputs simultaneously while using the same input feature.
+
+This example helped me understand how Multi-Task Lasso performs joint feature selection and builds simpler, more stable models when multiple prediction tasks are related.
+
+<img width="1105" height="637" alt="image" src="https://github.com/user-attachments/assets/63b996c9-be55-49e4-9938-7800bcffcbd7" />
+
+- Source :https://scikit-learn.org/stable/modules/linear_model.html#lasso
+- Code :
 
 
