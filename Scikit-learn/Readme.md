@@ -138,4 +138,14 @@ I took a simple example of engine size and fuel consumption to understand how La
 
 <img width="851" height="582" alt="image" src="https://github.com/user-attachments/assets/2cfb1557-cad9-45a5-89a4-a62451e67fce" />
 
+## Multi-Task Lasso
+
+Today I learned about Multi-Task Lasso, which is an extension of Lasso Regression used when we have multiple related prediction tasks instead of just one. In normal Lasso, we predict a single output variable, but in Multi-Task Lasso, we predict multiple outputs at the same time using the same input features.
+
+The main idea of Multi-Task Lasso is that different tasks may share common important features. Instead of selecting features separately for each task, Multi-Task Lasso performs joint feature selection. It uses a shared L1 regularization across all tasks, which encourages the model to select the same features for all outputs and ignore irrelevant ones.
+
+Compared to standard Lasso, Multi-Task Lasso is more effective when tasks are related because it improves generalization and reduces overfitting. It is commonly used in areas like multi-output regression, bioinformatics, and time-series prediction where multiple outcomes depend on the same inputs.
+
+
+<img width="705" height="566" alt="image" src="https://github.com/user-attachments/assets/7abb54b5-12ef-45be-bf31-ff6b11783c11" />
 
