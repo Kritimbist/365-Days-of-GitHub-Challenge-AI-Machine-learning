@@ -329,5 +329,4 @@ This example helped me understand how LARS efficiently builds linear models and 
 <img width="743" height="600" alt="image" src="https://github.com/user-attachments/assets/01b6d0a9-5150-4324-b971-98b4b17d55e7" />
 
 - Source:https://scikit-learn.org/stable/modules/linear_model.html#least-angle-regression
-- 
 - Code :https://github.com/Kritimbist/365-Days-of-GitHub-Challenge-AI-Machine-learning/blob/main/Scikit-learn/code/LARS.py
