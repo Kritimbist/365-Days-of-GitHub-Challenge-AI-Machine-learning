@@ -149,3 +149,15 @@ Compared to standard Lasso, Multi-Task Lasso is more effective when tasks are re
 
 <img width="705" height="566" alt="image" src="https://github.com/user-attachments/assets/7abb54b5-12ef-45be-bf31-ff6b11783c11" />
 
+## Least Angle Regression
+Today I learned about Least Angle Regression (LARS), which is an efficient algorithm for training linear regression models, especially when we have many features. LARS is closely related to Lasso regression and is often used to compute Lasso solutions in a fast and step-by-step manner.
+
+The key idea behind LARS is that it starts with all coefficients equal to zero. At each step, it finds the feature that is most correlated with the target variable and moves the coefficient in that direction. As the model progresses, new features enter the model only when they become equally correlated with the residual. This makes LARS a greedy but controlled approach to building a linear model.
+
+Unlike standard gradient-based methods, LARS updates the coefficients gradually and geometrically, which allows it to efficiently trace the entire solution path. When combined with L1 regularization, LARS behaves very similarly to Lasso and can even produce exactly the same solution under certain conditions.
+
+LARS is especially useful in high-dimensional datasets, such as gene expression data or text data, where the number of features is much larger than the number of samples.
+
+<img width="716" height="397" alt="image" src="https://github.com/user-attachments/assets/a85a187d-7a7d-4c95-b380-a93edfe57d1c" />
+
+
