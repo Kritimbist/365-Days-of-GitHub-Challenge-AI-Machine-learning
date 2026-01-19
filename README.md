@@ -316,3 +316,17 @@ This example helped me understand how Multi-Task Lasso performs joint feature se
 - Code :https://github.com/Kritimbist/365-Days-of-GitHub-Challenge-AI-Machine-learning/blob/main/Scikit-learn/code/Multi_task%20lasso.py
 
 
+## Least Angle Regression
+I implemented Least Angle Regression (LARS) using a simple synthetic dataset. I created one input feature and a target variable with some added noise to simulate real-world data. This helps in understanding how LARS behaves when the data is not perfectly linear.
+
+After creating the dataset, I trained a LARS model using scikit-learn. LARS starts with all coefficients set to zero and then gradually moves the coefficient in the direction of the feature that is most correlated with the target variable. Since this example has only one feature, LARS quickly selects it and fits a straight line to the data.
+
+Next, I generated predictions for new input values and visualized the results. In the plot, the scatter points represent the original data, while the straight line represents the prediction made by the LARS model. The visualization clearly shows how LARS fits a linear relationship while following a step-by-step feature selection approach.
+
+This example helped me understand how LARS efficiently builds linear models and why it is closely related to Lasso regression, especially in high-dimensional datasets.
+
+
+<img width="743" height="600" alt="image" src="https://github.com/user-attachments/assets/01b6d0a9-5150-4324-b971-98b4b17d55e7" />
+
+-Source:https://scikit-learn.org/stable/modules/linear_model.html#least-angle-regression
+-Code :
