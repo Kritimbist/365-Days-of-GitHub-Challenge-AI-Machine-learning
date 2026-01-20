@@ -16,4 +16,4 @@ To understand the process of handling missing value ,I first created a small dat
   <img width="584" height="480" alt="image" src="https://github.com/user-attachments/assets/7d15a4f3-ea0d-4155-aa19-b974eb239e2c" />
 
   - Source :https://www.geeksforgeeks.org/data-science/data-preprocessing-in-data-mining/
-  - Code :
+  - Code :https://github.com/Kritimbist/365-Days-of-GitHub-Challenge-AI-Machine-learning/blob/main/Data%20Preprocessing/code/Handle_missing_Value.py
