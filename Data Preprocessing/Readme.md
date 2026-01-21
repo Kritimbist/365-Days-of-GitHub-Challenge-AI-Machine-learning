@@ -17,3 +17,5 @@ To understand the process of handling missing value ,I first created a small dat
 
   - Source :https://www.geeksforgeeks.org/data-science/data-preprocessing-in-data-mining/
   - Code :https://github.com/Kritimbist/365-Days-of-GitHub-Challenge-AI-Machine-learning/blob/main/Data%20Preprocessing/code/Handle_missing_Value.py
+
+## Fixing incorrect or inconsistent data
