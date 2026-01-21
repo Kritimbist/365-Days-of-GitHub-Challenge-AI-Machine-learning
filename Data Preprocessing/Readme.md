@@ -19,3 +19,9 @@ To understand the process of handling missing value ,I first created a small dat
   - Code :https://github.com/Kritimbist/365-Days-of-GitHub-Challenge-AI-Machine-learning/blob/main/Data%20Preprocessing/code/Handle_missing_Value.py
 
 ## Fixing incorrect or inconsistent data
+I learned that incorrect or inconsistent data can seriously affect model performance. These issues usually appear as impossible values, inconsistent category names, or wrong data formats. Before training a model, I need to identify and fix these problems so the data becomes reliable.
+###  Common Problems I Fixed
+- Negative values where they should not exist (e.g., age = -5)
+- Different spellings for the same category (e.g., "Male", "male", "M")
+- Extra spaces or mixed cases in text data
+- Numerical values stored as strings
