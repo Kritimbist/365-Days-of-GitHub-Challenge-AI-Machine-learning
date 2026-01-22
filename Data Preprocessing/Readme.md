@@ -30,3 +30,6 @@ I learned that incorrect or inconsistent data can seriously affect model perform
 
 
 I first identified incorrect values in the Age column, such as negative numbers and unrealistic ages, and replaced them with NaN. Then I fixed inconsistent values in the Gender column by removing extra spaces, converting all text to lowercase, and mapping different representations to a single standard format. Finally, I converted the Salary column from text to numeric values, forcing invalid entries to become missing values so they can be handled later. This process helped me make the dataset consistent and reliable.
+
+### Removing Duplicate Data
+I learned that duplicate data means repeated rows that contain the same information. These duplicates can occur due to data collection errors, merging datasets, or repeated entries. If I do not remove duplicates, the model may learn biased patterns because the same data is counted multiple times.
