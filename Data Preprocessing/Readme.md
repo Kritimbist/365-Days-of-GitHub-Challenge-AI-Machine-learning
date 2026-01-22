@@ -25,3 +25,8 @@ I learned that incorrect or inconsistent data can seriously affect model perform
 - Different spellings for the same category (e.g., "Male", "male", "M")
 - Extra spaces or mixed cases in text data
 - Numerical values stored as strings
+
+  <img width="705" height="344" alt="image" src="https://github.com/user-attachments/assets/136ec75c-b596-4cbb-b1a8-05d4b3690bf9" />
+
+
+I first identified incorrect values in the Age column, such as negative numbers and unrealistic ages, and replaced them with NaN. Then I fixed inconsistent values in the Gender column by removing extra spaces, converting all text to lowercase, and mapping different representations to a single standard format. Finally, I converted the Salary column from text to numeric values, forcing invalid entries to become missing values so they can be handled later. This process helped me make the dataset consistent and reliable.
