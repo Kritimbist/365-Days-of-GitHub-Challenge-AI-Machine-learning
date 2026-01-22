@@ -33,3 +33,5 @@ I first identified incorrect values in the Age column, such as negative numbers 
 
 ### Removing Duplicate Data
 I learned that duplicate data means repeated rows that contain the same information. These duplicates can occur due to data collection errors, merging datasets, or repeated entries. If I do not remove duplicates, the model may learn biased patterns because the same data is counted multiple times.
+
+
