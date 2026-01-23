@@ -35,3 +35,8 @@ I first identified incorrect values in the Age column, such as negative numbers 
 I learned that duplicate data means repeated rows that contain the same information. These duplicates can occur due to data collection errors, merging datasets, or repeated entries. If I do not remove duplicates, the model may learn biased patterns because the same data is counted multiple times.
 
 I first created a dataset that contained duplicate rows. I used the duplicated() function to check how many duplicate records were present in the dataset. Then I removed those duplicates using the drop_duplicates() method. This ensured that each record appeared only once, making the dataset more accurate and reliable for further analysis or machine learning.
+
+<img width="615" height="279" alt="image" src="https://github.com/user-attachments/assets/220ebae7-618f-4d5d-a28f-8172a6d2ccb2" />
+<img width="587" height="176" alt="image" src="https://github.com/user-attachments/assets/82fed956-1ecd-4db7-bc03-3d4a8c923d56" />
+
+
