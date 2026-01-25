@@ -31,12 +31,21 @@ I learned that incorrect or inconsistent data can seriously affect model perform
 
 I first identified incorrect values in the Age column, such as negative numbers and unrealistic ages, and replaced them with NaN. Then I fixed inconsistent values in the Gender column by removing extra spaces, converting all text to lowercase, and mapping different representations to a single standard format. Finally, I converted the Salary column from text to numeric values, forcing invalid entries to become missing values so they can be handled later. This process helped me make the dataset consistent and reliable.
 
-### Removing Duplicate Data
+## Removing Duplicate Data
 I learned that duplicate data means repeated rows that contain the same information. These duplicates can occur due to data collection errors, merging datasets, or repeated entries. If I do not remove duplicates, the model may learn biased patterns because the same data is counted multiple times.
 
 I first created a dataset that contained duplicate rows. I used the duplicated() function to check how many duplicate records were present in the dataset. Then I removed those duplicates using the drop_duplicates() method. This ensured that each record appeared only once, making the dataset more accurate and reliable for further analysis or machine learning.
 
 <img width="615" height="279" alt="image" src="https://github.com/user-attachments/assets/220ebae7-618f-4d5d-a28f-8172a6d2ccb2" />
 <img width="587" height="176" alt="image" src="https://github.com/user-attachments/assets/82fed956-1ecd-4db7-bc03-3d4a8c923d56" />
+
+
+## Handling outliers
+I learned that outliers are extreme or unusual values that do not follow the general pattern of the data. Outliers can occur due to data entry errors, measurement issues, or rare but valid cases. If I do not handle outliers properly, they can distort the model and affect predictions.
+
+I learned how to detect outliers using the IQR (Interquartile Range) method. I first created a simple dataset of house prices and intentionally added extreme values to represent outliers. I calculated the first quartile (Q1) and third quartile (Q3), then computed the IQR as the difference between them. Using the standard 1.5 × IQR rule, I defined lower and upper bounds and classified data points outside this range as outliers. Finally, I visualized the normal values and detected outliers using a scatter plot along with the IQR boundaries.
+
+
+<img width="941" height="630" alt="image" src="https://github.com/user-attachments/assets/263264e6-ba4b-4958-80f1-65db328ccb36" />
 
 
