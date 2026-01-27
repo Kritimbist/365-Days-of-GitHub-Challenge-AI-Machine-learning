@@ -49,3 +49,9 @@ I learned how to detect outliers using the IQR (Interquartile Range) method. I f
 <img width="941" height="630" alt="image" src="https://github.com/user-attachments/assets/263264e6-ba4b-4958-80f1-65db328ccb36" />
 
 
+## Correcting data types
+Today I learned how to correct data types as an important step in data cleaning. When I load a real-world dataset, many columns are not in the correct format. Some numerical values are stored as strings, dates appear as plain text, and categorical values are treated as generic objects. If I do not fix these issues, data analysis and machine learning models may produce incorrect results.
+
+I created a random dataset where numeric, boolean, and date values were incorrectly stored as text. I first checked the existing data types and then converted numeric columns using to_numeric, fixed boolean values using mapping, and converted the date column to datetime format. This process ensured my dataset had correct and meaningful data types, making it ready for analysis or machine learning.
+
+<img width="667" height="316" alt="image" src="https://github.com/user-attachments/assets/40dd8b5c-9868-47cc-a8f9-304c1bf7ee86" />
