@@ -66,3 +66,6 @@ Record linkage is the process where I match and connect records from different d
 
 <img width="1098" height="521" alt="image" src="https://github.com/user-attachments/assets/faa0953e-243f-4400-b753-86c9b401b809" />
 
+<img width="1047" height="506" alt="image" src="https://github.com/user-attachments/assets/65ac965a-3627-49cc-b0b8-b80fbd2ca470" />
+
+
