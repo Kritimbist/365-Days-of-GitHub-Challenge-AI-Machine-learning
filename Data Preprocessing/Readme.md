@@ -55,3 +55,14 @@ Today I learned how to correct data types as an important step in data cleaning.
 I created a random dataset where numeric, boolean, and date values were incorrectly stored as text. I first checked the existing data types and then converted numeric columns using to_numeric, fixed boolean values using mapping, and converted the date column to datetime format. This process ensured my dataset had correct and meaningful data types, making it ready for analysis or machine learning.
 
 <img width="667" height="316" alt="image" src="https://github.com/user-attachments/assets/40dd8b5c-9868-47cc-a8f9-304c1bf7ee86" />
+
+
+
+# Data Integration
+It involves merging data from various sources into a single, unified dataset. It can be challenging due to differences in data formats, structures, and meanings. Techniques like record linkage and data fusion help in combining data efficiently, ensuring consistency and accuracy.
+
+## Record Linkage
+Record linkage is the process where I match and connect records from different datasets that refer to the same entity. I handle differences in names, formats, or missing identifiers by comparing common attributes such as phone numbers, dates, or text similarity.
+
+<img width="1098" height="521" alt="image" src="https://github.com/user-attachments/assets/faa0953e-243f-4400-b753-86c9b401b809" />
+
