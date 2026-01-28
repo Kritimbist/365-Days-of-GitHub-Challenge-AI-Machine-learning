@@ -68,4 +68,9 @@ Record linkage is the process where I match and connect records from different d
 
 <img width="1047" height="506" alt="image" src="https://github.com/user-attachments/assets/65ac965a-3627-49cc-b0b8-b80fbd2ca470" />
 
+<img width="977" height="676" alt="image" src="https://github.com/user-attachments/assets/beff9edb-1db2-4b06-9ce5-2c60d305bacf" />
+
+In this code, I created two small datasets to represent data coming from different sources. The first dataset contains names and phone numbers, while the second dataset contains similar information but with different column names and slightly different name formats. I then used pd.merge() to perform record linkage by matching the phone number column from the first dataset with the contact column from the second dataset. By doing this, I linked records that refer to the same person based on a common identifier, even though their names are written differently. This allowed me to combine related information from both datasets into a single unified view.
+
+
 
