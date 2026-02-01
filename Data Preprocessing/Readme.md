@@ -72,5 +72,7 @@ Record linkage is the process where I match and connect records from different d
 
 In this code, I created two small datasets to represent data coming from different sources. The first dataset contains names and phone numbers, while the second dataset contains similar information but with different column names and slightly different name formats. I then used pd.merge() to perform record linkage by matching the phone number column from the first dataset with the contact column from the second dataset. By doing this, I linked records that refer to the same person based on a common identifier, even though their names are written differently. This allowed me to combine related information from both datasets into a single unified view.
 
+## Data Fusion
 
+Today I learned about data fusion, which is the process where I combine information from multiple data sources to produce more accurate, complete, and reliable results. I understood that data fusion goes beyond simply merging datasets; it focuses on resolving conflicts, reducing uncertainty, and improving the quality of information. By using data fusion, I can take advantage of the strengths of different data sources and create a unified view that is more meaningful for analysis and decision-making.
 
