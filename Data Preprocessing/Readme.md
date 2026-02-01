@@ -75,4 +75,8 @@ In this code, I created two small datasets to represent data coming from differe
 ## Data Fusion
 
 Today I learned about data fusion, which is the process where I combine information from multiple data sources to produce more accurate, complete, and reliable results. I understood that data fusion goes beyond simply merging datasets; it focuses on resolving conflicts, reducing uncertainty, and improving the quality of information. By using data fusion, I can take advantage of the strengths of different data sources and create a unified view that is more meaningful for analysis and decision-making.
+I do simple example of data fusion where i combine temperature readings from two different sensors. I first merged the datasets based on time, then fused the values by averaging them while handling missing data. This allowed me to produce a final temperature value that is more reliable than using data from a single source
+
+<img width="905" height="671" alt="image" src="https://github.com/user-attachments/assets/640d6e0d-453e-4765-a13e-0c39d7f642cb" />
+
 
