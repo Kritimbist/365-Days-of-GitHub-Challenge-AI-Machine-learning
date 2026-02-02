@@ -80,4 +80,18 @@ I do simple example of data fusion where i combine temperature readings from two
 <img width="905" height="671" alt="image" src="https://github.com/user-attachments/assets/640d6e0d-453e-4765-a13e-0c39d7f642cb" />
 
 # Data Transformation
-Today I learned that data transformation is the process where I convert raw and unstructured data into a clean, consistent, and usable format. I transform data by changing data types, scaling numerical values, encoding categorical variables, and restructuring the dataset. This step helps me prepare the data for analysis and machine learning by improving consistency, reducing errors, and making the data suitable for model training.
+Today I learned that data transformation is the process where I convert raw and unstructured data into a clean, consistent, and usable format. I transform data by changing data types, scaling numerical values, encoding categorical variables, and restructuring the dataset. This step helps me prepare the data for analysis and machine learning by improving consistency, reducing errors, and making the data suitable for model training
+
+ ## Data Normalization
+
+ Today I learned how to normalize data using Min-Max scaling. I applied normalization to numerical features so that all values fall within the same range. This step helps machine learning models perform better by preventing features with large values from dominating the learning process.
+
+ <img width="822" height="169" alt="image" src="https://github.com/user-attachments/assets/81e7471c-c54d-4bed-b182-aa719ca9a24f" />
+
+ Example:
+
+ <img width="903" height="711" alt="image" src="https://github.com/user-attachments/assets/2365d0c7-66fa-495c-a9f1-1e5a88ccb1cd" />
+ <img width="795" height="572" alt="image" src="https://github.com/user-attachments/assets/8e2ed5ab-7e17-489a-b672-00bce3ab36ca" />
+
+
+
