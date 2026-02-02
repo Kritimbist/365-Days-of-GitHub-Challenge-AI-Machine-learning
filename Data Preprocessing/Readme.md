@@ -93,5 +93,13 @@ Today I learned that data transformation is the process where I convert raw and 
  <img width="903" height="711" alt="image" src="https://github.com/user-attachments/assets/2365d0c7-66fa-495c-a9f1-1e5a88ccb1cd" />
  <img width="795" height="572" alt="image" src="https://github.com/user-attachments/assets/8e2ed5ab-7e17-489a-b672-00bce3ab36ca" />
 
+ ## Standardization
+ Today I learned how to standardize data using Z-score. I transformed numerical features so they have zero mean and unit variance. This step helps machine learning algorithms perform better by ensuring all features contribute equally during training.
+
+ <img width="743" height="256" alt="image" src="https://github.com/user-attachments/assets/76af387d-534e-4c33-a239-c75bc2608493" />
+
+ 
+
+
 
 
