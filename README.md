@@ -185,6 +185,7 @@ But how do you know which line is the "best"?
 The cost function is a "score" that tells you how bad your line is. A high score means your line is a terrible fit. A low score means your line is a great fit.
 Your goal is to find the line that gives you the lowest possible score (the lowest "cost").
 <img width="3000" height="2000" alt="image" src="https://github.com/user-attachments/assets/729daa37-0d24-4d03-9dc9-be133302d4fd" />
+
 In this image, the red vertical lines represent the errors (residuals) for each point. The cost function calculates the average of the squares of the lengths of all these red lines.
 
 ### The Formula (Mean Squared Error)
@@ -209,6 +210,7 @@ This is a key concept. Your line is defined by its slope ($m$) and its y-interce
 
   If you were to plot every possible value of $m$ and $b$ against the Cost ($J$) they produce, you would get a 3D bowl shape.
   <img width="3688" height="1876" alt="image" src="https://github.com/user-attachments/assets/2a778926-e6ca-4977-a8b1-ce1fc6ad2792" />
+  
   The bottom of the bowl is the lowest cost (minimum error).The $m$ and $b$ values at that very bottom point are the parameters for your best-fit line!The whole process of "training" a model is just an algorithm (like Gradient Descent) "walking" down the side of this bowl to find the bottom.
   <img width="819" height="481" alt="image" src="https://github.com/user-attachments/assets/93c1acea-558b-43e0-b95a-5aa669a86061" />
 
