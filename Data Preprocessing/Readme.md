@@ -79,4 +79,5 @@ I do simple example of data fusion where i combine temperature readings from two
 
 <img width="905" height="671" alt="image" src="https://github.com/user-attachments/assets/640d6e0d-453e-4765-a13e-0c39d7f642cb" />
 
-
+# Data Transformation
+Today I learned that data transformation is the process where I convert raw and unstructured data into a clean, consistent, and usable format. I transform data by changing data types, scaling numerical values, encoding categorical variables, and restructuring the dataset. This step helps me prepare the data for analysis and machine learning by improving consistency, reducing errors, and making the data suitable for model training.
