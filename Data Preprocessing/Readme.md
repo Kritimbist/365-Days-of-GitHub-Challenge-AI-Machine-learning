@@ -100,7 +100,20 @@ Today I learned that data transformation is the process where I convert raw and 
 
 <img width="906" height="693" alt="image" src="https://github.com/user-attachments/assets/be5e1449-6859-49dd-976f-9405b73386f4" />
 
-![Uploading image.png…]()
+<img width="893" height="717" alt="image" src="https://github.com/user-attachments/assets/74a4accc-b25f-4f5c-895c-557cda8762d9" />
+
+## Discretization
+Today I learned about discretization, where I transformed continuous numerical data into discrete categories using binning. This helped simplify the dataset and made it more interpretable for analysis and machine learning models.
+
+
+<img width="796" height="551" alt="image" src="https://github.com/user-attachments/assets/73c5990d-f56d-4e55-b834-87d490dcffb5" />
+
+<img width="793" height="849" alt="image" src="https://github.com/user-attachments/assets/daf2d766-ede3-4968-81b6-5123de1705d8" />
+
+I converted continuous age values into discrete categories using binning. This made the data easier to interpret and useful for models that work better with categorical features.
+
+
+
 
 
  
