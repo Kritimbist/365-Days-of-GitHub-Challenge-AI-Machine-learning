@@ -98,6 +98,11 @@ Today I learned that data transformation is the process where I convert raw and 
 
  <img width="743" height="256" alt="image" src="https://github.com/user-attachments/assets/76af387d-534e-4c33-a239-c75bc2608493" />
 
+<img width="906" height="693" alt="image" src="https://github.com/user-attachments/assets/be5e1449-6859-49dd-976f-9405b73386f4" />
+
+![Uploading image.png…]()
+
+
  
 
 
