@@ -120,6 +120,7 @@ Data aggregation is a process where I combine multiple data points into summary 
 
 <img width="909" height="651" alt="image" src="https://github.com/user-attachments/assets/eeb85ebc-23e3-4a90-986a-43169616a206" />
 
+<img width="872" height="498" alt="image" src="https://github.com/user-attachments/assets/dd0ef2d9-4179-4284-be95-5508af734626" />
 
 
  
