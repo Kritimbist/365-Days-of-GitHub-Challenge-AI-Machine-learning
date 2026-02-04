@@ -113,6 +113,12 @@ Today I learned about discretization, where I transformed continuous numerical d
 I converted continuous age values into discrete categories using binning. This made the data easier to interpret and useful for models that work better with categorical features.
 
 
+## Data Aggregation
+Today I learned about Data Aggregation.
+
+Data aggregation is a process where I combine multiple data points into summary values so the data becomes easier to analyze and understand. Instead of working with raw, detailed records, I group the data and apply functions like sum, mean, count, min, or max to get higher-level insights.
+
+<img width="909" height="651" alt="image" src="https://github.com/user-attachments/assets/eeb85ebc-23e3-4a90-986a-43169616a206" />
 
 
 
