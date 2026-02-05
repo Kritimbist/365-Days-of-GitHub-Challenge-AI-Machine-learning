@@ -123,8 +123,10 @@ Data aggregation is a process where I combine multiple data points into summary 
 <img width="872" height="498" alt="image" src="https://github.com/user-attachments/assets/dd0ef2d9-4179-4284-be95-5508af734626" />
 
 
- 
+ ## Concept Hierarchy Generation
 
+Today I learned about Domain-Based Discretization.
 
+Domain-based discretization is a technique where I convert continuous numerical data into categories using real-world knowledge or expert rules, not just mathematical ranges. Instead of letting the data decide the bins, I define the bins based on how the domain actually understands the values.
 
 
