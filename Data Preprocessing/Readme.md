@@ -130,6 +130,3 @@ Today I learned about Domain-Based Discretization.
 Domain-based discretization is a technique where I convert continuous numerical data into categories using real-world knowledge or expert rules, not just mathematical ranges. Instead of letting the data decide the bins, I define the bins based on how the domain actually understands the values.
 
 
-GitHub-ready Summary
-
-Today I learned about domain-based discretization, where I transformed continuous data into categories using domain knowledge. This approach creates meaningful bins that reflect real-world standards rather than arbitrary numerical ranges.
