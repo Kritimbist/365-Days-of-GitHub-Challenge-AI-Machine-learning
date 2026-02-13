@@ -130,3 +130,8 @@ Today I learned about Domain-Based Discretization.
 Domain-based discretization is a technique where I convert continuous numerical data into categories using real-world knowledge or expert rules, not just mathematical ranges. Instead of letting the data decide the bins, I define the bins based on how the domain actually understands the values.
 
 
+I have data about employees with their ages. I want to create a hierarchy of age groups:
+
+Individual ages → Young/Adult/Senior → Child/Adult/Senior
+
+<img width="767" height="695" alt="image" src="https://github.com/user-attachments/assets/9466f3ae-5a83-4996-a368-4739a4a3c6a7" />
