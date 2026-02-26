@@ -332,3 +332,14 @@ This example helped me understand how LARS efficiently builds linear models and 
 
 - Source:https://scikit-learn.org/stable/modules/linear_model.html#least-angle-regression
 - Code :https://github.com/Kritimbist/365-Days-of-GitHub-Challenge-AI-Machine-learning/blob/main/Scikit-learn/code/LARS.py
+
+ ## Gradient Descent For Multiple Variables
+ The gradient descent equation itself is generally the same form; we just have to repeat it for our 'n' features:
+ <img width="1054" height="567" alt="image" src="https://github.com/user-attachments/assets/cd5f282b-3020-430b-aa90-3440a85a2519" />
+
+ The following image compares gradient descent with one variable to gradient descent with multiple variables: 
+
+<img width="890" height="410" alt="image" src="https://github.com/user-attachments/assets/704a24e3-3b3d-4f6c-86d2-41a6d59f278e" />
+
+
+
