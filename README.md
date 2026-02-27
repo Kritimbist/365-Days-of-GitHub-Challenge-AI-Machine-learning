@@ -342,4 +342,13 @@ This example helped me understand how LARS efficiently builds linear models and 
 <img width="890" height="410" alt="image" src="https://github.com/user-attachments/assets/704a24e3-3b3d-4f6c-86d2-41a6d59f278e" />
 
 
+## Gradient Descent in Practice II - Learning Rate
+
+<img width="749" height="387" alt="image" src="https://github.com/user-attachments/assets/8d9abd0f-30af-4a4d-a8ca-abb41ff027ae" />
+
+It has been proven that if learning rate α is sufficiently small, then J(θ) will decrease on every iteration.
+
+<img width="707" height="352" alt="image" src="https://github.com/user-attachments/assets/14e50c77-32c0-4b9b-8c83-582ea791be06" />
+
+
 
